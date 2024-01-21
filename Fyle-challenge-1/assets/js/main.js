@@ -1,6 +1,6 @@
 const username = 'johnpapa';
 const token =
-  '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';
+  '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';
 
 let pageNo = 1;
 let totalRepos = 0;
