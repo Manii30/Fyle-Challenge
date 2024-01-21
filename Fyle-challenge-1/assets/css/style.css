@@ -1,0 +1,95 @@
+.userImage {
+  width: 150px;
+  height: 150px;
+  background-color: #4d4d4d;
+  border-radius: 50%;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  left: 10rem;
+  top: .5rem;
+}
+.wri{
+  position: relative;
+  top: 1rem;
+}
+.git{
+  position: relative;
+  top: 2.5rem;
+  right: -5rem;
+  font-size: 12px;
+}
+.repositories {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  justify-content: center;
+}
+.repository {
+  border: solid 2px #000;
+  padding: 1rem;
+  max-width: 48%;
+  width: 48%;
+  cursor: pointer;
+}
+.repository h3 {
+  margin: 0;
+}
+.repo-topics {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  column-gap: 0.4rem;
+  row-gap: 0.2rem;
+}
+.repo-topic {
+  background: #0d6efd;
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.3rem;
+  color: #fff;
+  font-weight: 500;
+  cursor:not-allowed;
+}
+
+.page-item {
+  cursor: pointer;
+}
+.page-item.disabled {
+  cursor: not-allowed;
+}
+.loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: block;
+  width: 20%;
+}
+.clearSearch {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 1.75rem;
+  right: 1rem;
+  filter: invert(8%) sepia(100%) saturate(7483%) hue-rotate(19deg) brightness(97%) contrast(122%);
+  display: none;
+  cursor: pointer;
+}
+.dropdown{
+  margin: .4rem;
+}
+#twitter,#git{
+  cursor: pointer;
+}
